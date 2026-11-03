@@ -11,7 +11,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.res.AssetManager;
 import android.util.Log;
 
-import me.dmk95.csso.R;
+import com.mohakun.csmos.R;
 
 public class ExtractAssets
 {

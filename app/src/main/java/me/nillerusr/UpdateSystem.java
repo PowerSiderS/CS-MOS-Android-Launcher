@@ -13,7 +13,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import me.dmk95.csso.R;
+import com.mohakun.csmos.R;
 
 public class UpdateSystem extends AsyncTask< String, Integer, String >
 {

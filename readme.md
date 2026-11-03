@@ -1,1 +1,3 @@
-CS:SO Android launcher source code
+CS:MOS Android Launcher Source Code
+
+Based from CS:SO Android Launcher by NVMe (ndke)

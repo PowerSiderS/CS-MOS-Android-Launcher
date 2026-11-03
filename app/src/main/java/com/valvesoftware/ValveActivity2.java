@@ -12,7 +12,7 @@ import android.util.Log;
 
 import me.nillerusr.ExtractAssets;
 import me.nillerusr.LauncherActivity;
-import me.dmk95.csso.R;
+import com.mohakun.csmos.R;
 
 public class ValveActivity2 // not activity, i am lazy to change native methods
 {

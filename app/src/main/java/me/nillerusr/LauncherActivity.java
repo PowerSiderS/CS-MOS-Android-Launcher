@@ -26,7 +26,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import me.dmk95.csso.R;
+import com.mohakun.csmos.R;
 import me.sanyasho.util.SharedUtil;
 import su.xash.fwgslib.CertCheck;
 
@@ -34,7 +34,7 @@ public class LauncherActivity extends Activity
 {
 	public static String TAG = "LauncherActivity";
 
-	public static String MOD_NAME = "csso";
+	public static String MOD_NAME = "csmos";
 	public static String PKG_NAME;
 
 	static EditText cmdArgs = null, GamePath = null;
@@ -123,18 +123,6 @@ public class LauncherActivity extends Activity
 			startActivity( intent );
 		} );
 
-		/*Button getHL2Button = findViewById( R.id.get_hl2 );
-		getHL2Button.setOnClickListener( v ->
-		{
-			SharedUtil.startBrowser( getApplicationContext(), "https://store.steampowered.com/app/240" ); // Counter-Strike Source: Deathmatch store page
-		} );
-
-		Button getCSSOCButton = findViewById( R.id.get_csso );
-		getCSSOCButton.setOnClickListener( v ->
-		{
-			SharedUtil.startBrowser( getApplicationContext(), getString( R.string.csso_download_url ) );
-		} );*/
-
 		cmdArgs.setText( mPref.getString( "argv", getString( R.string.default_commandline_arguments ) ) );
 		GamePath.setText( mPref.getString( "gamepath", getDefaultDir() + "/srceng" ) );
 
@@ -211,7 +199,7 @@ public class LauncherActivity extends Activity
 		{
 			new AlertDialog.Builder( this )
 					.setTitle( R.string.srceng_launcher_error )
-					.setMessage( R.string.csso_game_check )
+					.setMessage( R.string.csmos_game_check )
 					.setPositiveButton( R.string.srceng_launcher_ok, null )
 					.show();
 

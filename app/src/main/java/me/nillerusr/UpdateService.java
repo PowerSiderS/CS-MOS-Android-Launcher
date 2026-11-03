@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.widget.RemoteViews;
 
-import me.dmk95.csso.R;
+import com.mohakun.csmos.R;
 
 public class UpdateService extends Service
 {
